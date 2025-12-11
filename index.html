@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis Motion</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Tennis Motion Analyzer</h1>
+    <p>테니스 영상 업로드 및 분석 웹페이지</p>
+
+    <div class="upload-box" id="uploadBox">
+        <p>영상을 드래그하거나 클릭해서 업로드하세요</p>
+        <input type="file" id="fileInput" accept="video/*" hidden>
+    </div>
+
+    <button id="analyzeBtn" disabled>분석 시작하기</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
